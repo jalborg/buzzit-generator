@@ -1,0 +1,98 @@
+/*
+JS: MAKE UP LIST TITLES
+HTML: FIX SHARING BUTTONS LINKS
+GOOGLE ANALYTICS TAG
+
+PUBLISH ON GITHUB
+*/
+
+body {
+	text-align:center;
+	font-family: "Merriweather",sans-serif;
+	background-color: #FBFBFB
+;
+}
+
+#result {
+	font-size:25;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+a:hover {
+	color:#FFFF00;
+}
+
+/*Title on top of page, "BUZZIT-GENERATOREN"*/
+#top {
+	font-size:20;
+}
+
+/*Title result, hidden*/
+.hide {
+  height: 0;
+  opacity:0;
+}
+
+/*Title result when shown*/
+.show {
+  height:100%;
+  opacity:1;
+  max-width:70%;
+  margin: 150px auto 20px auto;
+}
+
+#button {
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	background:#FFFF00;
+	border-radius: 10px;
+	margin:0 auto 130px auto;
+	display:block;
+	border-color:black;
+	padding:10px 20px 10px 20px;
+
+}
+
+#button:hover { 
+	background:	#FFFF99; 
+}
+
+	button:focus {
+	outline:0;
+}
+
+
+footer {
+	bottom:0;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+img {
+	width:35px;
+	height:35px;
+}
+
+#madeby {
+	font-size:16px;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Change width of Buzzit title based on screen size*/
+@media screen and (max-width: 480px) {
+		.show {
+			max-width:90%;
+}
+	}
+
+	@media screen and (min-width: 480px) {
+		.show {
+			max-width:60%;
+}
+	}
