@@ -1,16 +1,18 @@
-/*
-JS: MAKE UP LIST TITLES
-HTML: FIX SHARING BUTTONS LINKS
-GOOGLE ANALYTICS TAG
-
-PUBLISH ON GITHUB
-*/
-
-body {
+/*HTML: FIX SHARING BUTTONS LINKS
+GOOGLE ANALYTICS TAG;*/
+html, body {
+	margin:0;
 	text-align:center;
 	font-family: "Merriweather",sans-serif;
-	background-color: #FBFBFB
-;
+	background-color: #FBFBFB;
+	height:100%;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto;
+height: 100%;
+margin: 0 auto -4em;
 }
 
 #result {
@@ -66,11 +68,10 @@ a:hover {
 }
 
 
-footer {
+.footer, .push {
+	height: 4em;
 	bottom:0;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
+  	color: #ccc;
 }
 
 img {
