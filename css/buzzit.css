@@ -12,7 +12,7 @@ html, body {
 min-height: 100%;
 height: auto;
 height: 100%;
-margin: 0 auto -4em;
+margin: 0 auto -7em;
 }
 
 #result {
@@ -70,8 +70,6 @@ a:hover {
 
 .footer, .push {
 	height: 4em;
-	bottom:0;
-  	color: #ccc;
 }
 
 img {
@@ -83,6 +81,7 @@ img {
 	font-size:16px;
 	color:black;
 	font-family: 'Open Sans', sans-serif;
+	padding-bottom:3em;
 }
 
 /*Change width of Buzzit title based on screen size*/
