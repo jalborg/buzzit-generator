@@ -12,7 +12,7 @@ html, body {
 min-height: 100%;
 height: auto;
 height: 100%;
-margin: 0 auto -7em;
+margin: 0 auto -5em;
 }
 
 #result {
@@ -81,7 +81,7 @@ img {
 	font-size:16px;
 	color:black;
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom:3em;
+	padding-bottom:1em;
 }
 
 /*Change width of Buzzit title based on screen size*/
