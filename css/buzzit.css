@@ -2,7 +2,6 @@ html, body {
 	text-align:center;
 	font-family: "Merriweather",sans-serif;
 	background-color: #FBFBFB;
-	height:100%;
 }
 
 .wrapper {
@@ -11,10 +10,6 @@ html, body {
  	padding: 0 5%;
 }
 
-#answers {
-	font-size:25;
-	padding-top:3em;
-}
 
 a {
 	text-decoration:none;
@@ -30,6 +25,11 @@ a:hover {
 	font-size:20;
 }
 
+#answers {
+	font-size:25;
+	margin: 150px auto 50px auto;
+}
+
 /*Title result, hidden*/
 .hide {
   height: 0;
@@ -41,16 +41,14 @@ a:hover {
   height:100%;
   opacity:1;
   max-width:70%;
-  margin: 150px auto 20px auto;
 }
 
 /* Hidden button, waiting for JS to load*/
 .hiddenButton {
 	font-size:15px;
 	border-radius: 10px;
-	margin:130px auto 130px auto;
 	display:block;
-	padding:10px 20px 10px 20px;
+	margin:0 auto 10% auto;
 	opacity:0;
 }
 /* Button when visible*/
@@ -59,7 +57,7 @@ a:hover {
 	font-size:15px;
 	background:#FFFF00;
 	border-radius: 10px;
-	margin:0 auto 130px auto;
+	margin:0 auto 20% auto;
 	display:block;
 	border-color:black;
 	padding:10px 20px 10px 20px;
@@ -85,7 +83,7 @@ footer {
 	font-size: 16px;
   	text-align: center;
 	clear: both;
-	padding-top: 3em;
+	margin-bottom:0.5%;
 	font-family: 'Open Sans', sans-serif;
 
 }
