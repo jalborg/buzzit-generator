@@ -1,5 +1,5 @@
-
 //Function for choosing a random word from the arrays
+
 function random_number(num) {
     var num = num;
     return Math.floor(Math.random() * num);
@@ -137,7 +137,7 @@ function lists_fill_in_answers(lists_answers) {
    //  listspart1.innerText = answers['lists_one'];
    //  listspart2.innerText = answers['lists_two'];
 
-  	// listspart1.innerHTML = answers.lists_one;  // Change the content of the element in the HTML doc with the id "listspart1" to the value in answers 
+    // listspart1.innerHTML = answers.lists_one;  // Change the content of the element in the HTML doc with the id "listspart1" to the value in answers 
    //  listspart2.innerHTML = answers.lists_two;
 
 }
@@ -145,6 +145,8 @@ function lists_fill_in_answers(lists_answers) {
 
 
 function showtitle() {
+
+    //Choose randomly one of two title types to display
     var titleType = Math.floor((Math.random() * 2) + 1);
 
     // Build up the answers object
@@ -162,22 +164,24 @@ function showtitle() {
     } else {
 
     var lists_answers = {
-    	'lists_one': lists_one_choice(),
-    	'lists_two': lists_two_choice(),
+      'lists_one': lists_one_choice(),
+      'lists_two': lists_two_choice(),
       'lists_three': lists_three_choice(),
       'lists_four': lists_four_choice(),
       'lists_five': lists_five_choice(),
       }
-    	lists_fill_in_answers(lists_answers);
+      lists_fill_in_answers(lists_answers);
       var answer_div = document.querySelector('#answers');
-      answer_div.classList.add('show');    
-    };// Fill in the answers
+      answer_div.classList.add('show');  
+
+      
+    };// Make button visible by changing class
+
+    button.classList.add('button');  
     
-    
-    //Choose one of two title types to display
 
 };
-
-window.onload=showtitle;
-var button = document.querySelector('#button');  
+// Show title
+var button = document.querySelector('.hiddenButton');
+window.onload=showtitle;  
 button.addEventListener('click', showtitle);  // When buzzit button is clicked, call the function showtitle.
