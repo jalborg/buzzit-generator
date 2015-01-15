@@ -27,7 +27,7 @@ a:hover {
 
 #answers {
 	font-size:25;
-	margin: 150px auto 50px auto;
+	margin: 15% auto 50px auto;
 }
 
 /*Title result, hidden*/
@@ -48,7 +48,8 @@ a:hover {
 	font-size:15px;
 	border-radius: 10px;
 	display:block;
-	margin:0 auto 10% auto;
+	margin:0 auto 15% auto;
+	padding:10px 20px 10px 20px;
 	opacity:0;
 }
 /* Button when visible*/
@@ -57,7 +58,7 @@ a:hover {
 	font-size:15px;
 	background:#FFFF00;
 	border-radius: 10px;
-	margin:0 auto 20% auto;
+	margin:0 auto 15% auto;
 	display:block;
 	border-color:black;
 	padding:10px 20px 10px 20px;
