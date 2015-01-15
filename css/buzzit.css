@@ -1,7 +1,4 @@
-/*HTML: FIX SHARING BUTTONS LINKS
-GOOGLE ANALYTICS TAG;*/
 html, body {
-	margin:0;
 	text-align:center;
 	font-family: "Merriweather",sans-serif;
 	background-color: #FBFBFB;
@@ -9,14 +6,14 @@ html, body {
 }
 
 .wrapper {
-min-height: 100%;
-height: auto;
-height: 100%;
-margin: 0 auto -5em;
+	max-width: 940px;
+ 	margin: 0 auto;
+ 	padding: 0 5%;
 }
 
-#result {
+#answers {
 	font-size:25;
+	padding-top:3em;
 }
 
 a {
@@ -47,7 +44,17 @@ a:hover {
   margin: 150px auto 20px auto;
 }
 
-#button {
+/* Hidden button, waiting for JS to load*/
+.hiddenButton {
+	font-size:15px;
+	border-radius: 10px;
+	margin:130px auto 130px auto;
+	display:block;
+	padding:10px 20px 10px 20px;
+	opacity:0;
+}
+/* Button when visible*/
+.button {
 	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	background:#FFFF00;
@@ -56,32 +63,31 @@ a:hover {
 	display:block;
 	border-color:black;
 	padding:10px 20px 10px 20px;
+	opacity:1;
 
 }
 
-#button:hover { 
+.button:hover { 
 	background:	#FFFF99; 
 }
 
-	button:focus {
+.button:focus {
 	outline:0;
 }
 
-
-.footer, .push {
-	height: 4em;
-}
 
 img {
 	width:35px;
 	height:35px;
 }
 
-#madeby {
-	font-size:16px;
-	color:black;
+footer {
+	font-size: 16px;
+  	text-align: center;
+	clear: both;
+	padding-top: 3em;
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom:1em;
+
 }
 
 /*Change width of Buzzit title based on screen size*/
