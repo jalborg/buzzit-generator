@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
 		.button:hover { 
 	background:	#FFFF00; 
+	}
 }
 
 @media screen and (min-width: 600px) {
@@ -10,6 +11,6 @@
 
 		#answers {
 	font-size:1.1em;
-	margin: 20% auto 50px;
+	margin: 150px auto 50px;
 		}
 }
