@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 500px) {
+	/*Change width of Buzzit title based on screen size*/
+		.show {
+			max-width:90%;
+}
+/*Larger text on mobile screens*/
+		body {
+			font-size:1.2em;
+		}
+	}
+
+	@media screen and (min-width: 480px) {
+		.show {
+			max-width:60%;
+}
+	}
