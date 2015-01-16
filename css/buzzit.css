@@ -2,6 +2,7 @@ html, body {
 	text-align:center;
 	font-family: "Merriweather",sans-serif;
 	background-color: #FBFBFB;
+	font-size:1em;
 }
 
 .wrapper {
@@ -22,12 +23,12 @@ a:hover {
 
 /*Title on top of page, "BUZZIT-GENERATOREN"*/
 #top {
-	font-size:20;
+	font-size:1em;
 }
 
 #answers {
-	font-size:25;
-	margin: 15% auto 50px auto;
+	font-size:1.3em;
+	margin: 150px auto 50px;
 }
 
 /*Title result, hidden*/
@@ -45,23 +46,22 @@ a:hover {
 
 /* Hidden button, waiting for JS to load*/
 .hiddenButton {
-	font-size:15px;
-	border-radius: 10px;
+	font-size:1em;
 	display:block;
-	margin:0 auto 15% auto;
-	padding:10px 20px 10px 20px;
+	margin:0 auto 15%;
+	padding:10px 20px;
 	opacity:0;
 }
 /* Button when visible*/
 .button {
 	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
+	font-size:1em;
 	background:#FFFF00;
 	border-radius: 10px;
-	margin:0 auto 15% auto;
+	margin: 0 auto 15%;
 	display:block;
 	border-color:black;
-	padding:10px 20px 10px 20px;
+	padding:10px 20px;
 	opacity:1;
 
 }
@@ -81,9 +81,7 @@ img {
 }
 
 footer {
-	font-size: 16px;
-  	text-align: center;
-	clear: both;
+	font-size: 0.9em;
 	margin-bottom:0.5%;
 	font-family: 'Open Sans', sans-serif;
 
