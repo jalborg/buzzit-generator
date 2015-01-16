@@ -2,9 +2,6 @@
 @media screen and (max-width: 500px) {
 	/*Change width of Buzzit title based on screen size*/
 /*Larger text on mobile screens*/
-		body {
-			font-size:1.2em;
-		}
 		#answers {
 		margin: 1% auto 40px;
 		}
