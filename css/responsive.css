@@ -1,4 +1,12 @@
-	/*Make width of title smaller on larger screens*/
+
+@media screen and (max-width: 500px) {
+	/*Change width of Buzzit title based on screen size*/
+/*Larger text on mobile screens*/
+		body {
+			font-size:1.2em;
+		}
+}
+
 @media screen and (min-width: 500px) {
 		.show {
 			max-width:60%;
