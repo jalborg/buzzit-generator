@@ -5,6 +5,7 @@ html, body {
 	font-family: "Merriweather",sans-serif;
 	background-color: #FBFBFB;
 	font-size:1em;
+	width:100%;
 }
 
 .wrapper {
