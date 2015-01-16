@@ -1,14 +1,10 @@
-
-@media screen and (max-width: 500px) {
-	/*Change width of Buzzit title based on screen size*/
-/*Larger text on mobile screens*/
-		#answers {
-		margin: 1% auto 40px;
-		}
-}
-
 @media screen and (min-width: 600px) {
 		.show {
 			max-width:60%;
-}
 		}
+
+		#answers {
+	font-size:1.1em;
+	margin: 150px auto 50px;
+		}
+}
