@@ -1,17 +1,15 @@
-
-
-html, body {
+body {
 	text-align:center;
 	font-family: "Merriweather",sans-serif;
 	background-color: #FBFBFB;
 	font-size:1em;
-	width:100%;
 }
 
 .wrapper {
 	max-width: 940px;
  	margin: 0 auto;
  	padding: 0 2%;
+ 	font-size:1em;
 }
 
 
@@ -30,7 +28,7 @@ a:hover {
 }
 
 #answers {
-	font-size:1.3em;
+	font-size:1.1em;
 	margin: 150px auto 50px;
 }
 
@@ -44,12 +42,12 @@ a:hover {
 .show {
   height:100%;
   opacity:1;
-  max-width:90%;
+  width:90%;
 }
 
 /* Hidden button, waiting for JS to load*/
 .hiddenButton {
-	font-size:1em;
+	font-size:0.9em;
 	display:block;
 	margin:0 auto 15%;
 	padding:10px 20px;
@@ -58,7 +56,7 @@ a:hover {
 /* Button when visible*/
 .button {
 	font-family: 'Open Sans', sans-serif;
-	font-size:1.2em;
+	font-size:1em;
 	background:#FFFF00;
 	border-radius: 10px;
 	margin: 0 auto 15%;
