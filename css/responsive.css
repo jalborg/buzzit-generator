@@ -1,3 +1,8 @@
+@media screen and (max-width: 600px) {
+		.button:hover { 
+	background:	#FFFF00; 
+}
+
 @media screen and (min-width: 600px) {
 		.show {
 			max-width:60%;
