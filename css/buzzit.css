@@ -41,7 +41,7 @@ a:hover {
 .show {
   height:100%;
   opacity:1;
-  max-width:70%;
+  max-width:90%;
 }
 
 /* Hidden button, waiting for JS to load*/
