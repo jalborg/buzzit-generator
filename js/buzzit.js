@@ -73,7 +73,7 @@ return lists_three[randomNum];
 }
 
 function lists_four_choice() {
-var lists_four = ["kvinner", "menn", "folk med dårlig syn", "folk i Midt-Norge", "bare tidligere emo-kids", "menn med høyt hårfeste", "menn med skostørrelse 46", "turister", "ungdommelige bestemødre", "kvinner i 20-årene", "menn mellom 35 og 40", "gangstere", "norske skuespillere", "katteeiere", "bare hipstere", "rosabloggere", "hundeeiere", "bare kvinner med naturlig hårfarge", "Beyonces mamma", "alle", "en såret kvinne", "en såret mann", "bare kvinner", "kommuneansatte", "damer med kommunegrått hår", "bare menn", "arkitekter", "nyforelskede par", "finansmenn", "moren din"];
+var lists_four = ["kvinner", "menn", "folk med dårlig syn", "folk i Midt-Norge", "bare tidligere emo-kids", "menn med høyt hårfeste", "menn med skostørrelse 46", "turister", "ungdommelige bestemødre", "kvinner i 20-årene", "menn mellom 35 og 40", "gangstere", "norske skuespillere", "katteeiere", "bare hipstere", "rosabloggere", "hundeeiere", "bare kvinner med naturlig hårfarge", "Beyonces mamma", "alle", "en såret kvinne", "en såret mann", "kommuneansatte", "damer med kommunegrått hår", "arkitekter", "nyforelskede par", "finansmenn", "moren din"];
 
 var randomNum = random_number(lists_four.length);
 return lists_four[randomNum];
@@ -111,7 +111,7 @@ return w_three[randomNum];
 }
 
 function w_four_choice() {
-var w_four =["klatret hun opp på taket og tok av seg klærne", "gjorde hun en enorm tabbe", "gjorde hun det ingen forventet", "gjorde hun noe som rører en hel verden", "fikk hun livet snudd på hodet", "skrev hun en fantastisk Facebook-status", "lagde hun en video som rører en hel verden", "skrev hun denne utrolige Facebook-statusen", "skrev hun en Facebook-status som er delt over 20 000 ganger", "la hun ut en utrolig video på nettet", "gjorde hun noe som sjokkerte alle", "overrasket hun alle", "klikket hun fullstendig", "gjorde hun noe som overrasket alle", "gjorde hun noe ufattelig", "slo hun tilbake på verst tenkelig måte", "gjorde hun noe helt utrolig", "gjorde hun noe fantastisk", "fikk hun den perfekte hevn", "gjorde hun noe helt vilt", "gjorde hun noe som er sett av over 6 millioner på 2 dager", "gjorde hun noe som er blitt sett 9 millioner ganger på Youtube", "skjedde det noe vilt"];
+var w_four =["klatret hun opp på taket og tok av seg klærne", "tok hun den verst tenkelige hevnen", "gjorde hun en enorm tabbe", "gjorde hun det ingen forventet", "gjorde hun noe som rører en hel verden", "fikk hun livet snudd på hodet", "skrev hun en fantastisk Facebook-status", "lagde hun en video som rører en hel verden", "skrev hun denne utrolige Facebook-statusen", "skrev hun en Facebook-status som er delt over 20 000 ganger", "la hun ut en utrolig video på nettet", "gjorde hun noe som sjokkerte alle", "overrasket hun alle", "klikket hun fullstendig", "gjorde hun noe som overrasket alle", "gjorde hun noe ufattelig", "slo hun tilbake på verst tenkelig måte", "gjorde hun noe helt utrolig", "gjorde hun noe fantastisk", "fikk hun den perfekte hevn", "gjorde hun noe helt vilt", "gjorde hun noe som er sett av over 6 millioner på 2 dager", "gjorde hun noe som er blitt sett 9 millioner ganger på Youtube", "skjedde det noe vilt"];
 
 var randomNum = random_number(w_four.length);
 return w_four[randomNum];
