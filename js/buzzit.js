@@ -73,7 +73,7 @@ return lists_three[randomNum];
 }
 
 function lists_four_choice() {
-var lists_four = ["kvinner", "menn", "folk med dårlig syn", "folk i Midt-Norge", "bare tidligere emo-kids", "menn med høyt hårfeste", "menn med skostørrelse 46", "turister", "ungdommelige bestemødre", "kvinner i 20-årene", "menn mellom 35 og 40", "gangstere", "norske skuespillere", "katteeiere", "bare hipstere", "rosabloggere", "hundeeiere", "bare kvinner med naturlig hårfarge", "Beyonces mamma", "alle", "en såret kvinne", "en såret mann", "kommuneansatte", "damer med kommunegrått hår", "arkitekter", "nyforelskede par", "finansmenn", "moren din"];
+var lists_four = ["kvinner", "menn", "folk med dårlig syn", "folk i Midt-Norge", "bare tidligere emo-kids", "menn med høyt hårfeste", "menn med skostørrelse 46", "turister", "ungdommelige bestemødre", "kvinner i 20-årene", "menn mellom 35 og 40", "gangstere", "norske skuespillere", "katteeiere", "bare hipstere", "rosabloggere", "hundeeiere", "kvinner med naturlig hårfarge", "Beyonces mamma", "alle", "en såret kvinne", "en såret mann", "kommuneansatte", "damer med kommunegrått hår", "arkitekter", "nyforelskede par", "finansmenn", "moren din"];
 
 var randomNum = random_number(lists_four.length);
 return lists_four[randomNum];
