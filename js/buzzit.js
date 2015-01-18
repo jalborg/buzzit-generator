@@ -41,7 +41,7 @@ return four[randomNum];
 }
 
 function five_choice() {
-var five = ["er ikke til å tro", "er enda mer utrolig enn du kan tenke deg", "vil få deg til å flire", "er blitt sett 2 millioner ganger på Youtube", "vekker avsky", "er himmelsk", "vil få hjertet ditt til å smelte", "er det ekleste du noen gang har sett", "er et nydelig skue", "er hjerteskjærende", "er det villeste du noen gang har sett", "er hysterisk", "vil få hjertet ditt til å smelte", "er sjokkerende", "vil gi deg vann i munnen", "er skikkelig stilig!", "er rørende", "er ubetalelig", "vil gi deg latterkrampe", "vil få deg til å miste fatningen", "er overraskende", "er fantastisk", "vil overraske deg", "er helt briljant", "er helt utrolig", "vil få deg til å gråte", "er magisk", "vil gi deg troen på menneskeheten tilbake", "vil få deg til å le"];
+var five = ["er ikke til å tro", "er verdt å dele med Facebook-vennene dine", "er enda mer utrolig enn du kan tenke deg", "er enda villere enn du kan tenke deg", "vil få deg til å flire", "er blitt sett 2 millioner ganger på Youtube", "vekker avsky over hele verden", "er himmelsk", "vil få hjertet ditt til å smelte", "er det ekleste du noen gang har sett", "er et nydelig skue", "er hjerteskjærende", "er det villeste du noen gang har sett", "er hysterisk", "vil få hjertet ditt til å smelte", "vil få deg til å rulle på gulvet i latter", "er sjokkerende", "vil gi deg vann i munnen", "er skikkelig stilig!", "er rørende", "er ubetalelig", "vil gi deg latterkrampe", "vil få deg til å miste fatningen", "er virkelig magisk", "er overraskende", "er fantastisk", "vil overraske deg", "er helt briljant", "er helt utrolig", "vil få deg til å gråte som et lite barn", "er magisk", "vil gi deg troen på menneskeheten tilbake", "vil få deg til å le høyt og lenge"];
 
 var randomNum = random_number(five.length);
 
@@ -97,7 +97,7 @@ return w_one[randomNum];
 }
 
 function w_two_choice() {
-var w_two =["oppdaget at mannen var utro.", "ble ertet for de små puppene sine.", "var en grå mus.", "ble sett på som den stygge søsteren.", "hadde blitt ledd av hele livet.", "var misunnelig på søsteren.", "møtte på låst dør.", "hadde høylytt sex og ble kastet ut av leiligheten.", "ble kastet ut fra utestedet.", "ble seksuelt trakassert på jobb.", "ble baksnakket av venninnene.", "mistet jobben.", "oppdaget at mannen var spillavhengig.", "oppdaget hva folk hadde skrevet om henne i årboken.", "ble hetset på internett.", "fikk skjellsord slengt etter seg daglig."];
+var w_two =["oppdaget at mannen var utro.", "var en grå mus.", "ble sett på som den stygge søsteren.", "hadde blitt ledd av hele livet.", "var misunnelig på sin vakre søster.", "møtte på låst dør.", "fikk avslag på alle jobbsøknadene.", "hadde høylytt sex og ble kastet ut av leiligheten.", "ble kastet ut fra det lokale utestedet.", "ble seksuelt trakassert på jobb.", "ble baksnakket av venninnene.", "mistet jobben.", "oppdaget at mannen var spillavhengig.", "oppdaget hva folk hadde skrevet om henne i årboken.", "ble hetset på internett.", "fikk skjellsord slengt etter seg daglig."];
 
 var randomNum = random_number(w_two.length);
 return w_two[randomNum];
@@ -111,7 +111,7 @@ return w_three[randomNum];
 }
 
 function w_four_choice() {
-var w_four =["klatret hun opp på taket og tok av seg klærne", "gjorde hun en stor tabbe", "gjorde hun det ingen forventet", "gjorde hun noe som rører en hel verden", "endret plutselig alt seg", "fikk hun livet snudd på hodet", "skrev hun en fantastisk Facebook-status", "skrev hun denne utrolige Facebook-statusen", "la hun ut en utrolig video på nettet", "gjorde hun noe som sjokkerte alle", "overrasket hun alle", "klikket hun fullstendig", "gjorde hun noe som overrasket alle", "klikket hun", "gjorde hun noe uforståelig", "slo hun tilbake", "fikk hun tidenes comeback", "gjorde hun noe som forandret alt", "gjorde hun noe helt utrolig", "gjorde hun noe fantastisk", "bestemte hun seg for å ta hevn", "fikk hun den perfekte hevn", "tok hun hevn", "gjorde hun noe helt vilt", "gjorde hun noe som er sett av over 5 millioner på 2 dager", "gjorde hun noe som er blitt sett 9 millioner ganger på Youtube", "skjedde det noe vilt"];
+var w_four =["klatret hun opp på taket og tok av seg klærne", "gjorde hun en enorm tabbe", "gjorde hun det ingen forventet", "gjorde hun noe som rører en hel verden", "fikk hun livet snudd på hodet", "skrev hun en fantastisk Facebook-status", "lagde hun en video som rører en hel verden", "skrev hun denne utrolige Facebook-statusen", "skrev hun en Facebook-status som er delt over 20 000 ganger", "la hun ut en utrolig video på nettet", "gjorde hun noe som sjokkerte alle", "overrasket hun alle", "klikket hun fullstendig", "gjorde hun noe som overrasket alle", "gjorde hun noe ufattelig", "slo hun tilbake på verst tenkelig måte", "gjorde hun noe helt utrolig", "gjorde hun noe fantastisk", "fikk hun den perfekte hevn", "gjorde hun noe helt vilt", "gjorde hun noe som er sett av over 6 millioner på 2 dager", "gjorde hun noe som er blitt sett 9 millioner ganger på Youtube", "skjedde det noe vilt"];
 
 var randomNum = random_number(w_four.length);
 return w_four[randomNum];
