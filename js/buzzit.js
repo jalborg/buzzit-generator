@@ -73,21 +73,21 @@ return lists_three[randomNum];
 }
 
 function lists_four_choice() {
-var lists_four = ["kvinner", "menn", "folk med dårlig syn", "folk i Midt-Norge", "bare tidligere emo-kids", "menn med høyt hårfeste", "menn med skostørrelse 46", "turister", "ungdommelige bestemødre", "kvinner i 20-årene", "menn mellom 35 og 40", "gangstere", "norske skuespillere", "katteeiere", "bare hipstere", "rosabloggere", "hundeeiere", "kvinner med naturlig hårfarge", "Beyonces mamma", "alle", "en såret kvinne", "en såret mann", "kommuneansatte", "damer med kommunegrått hår", "arkitekter", "nyforelskede par", "finansmenn", "moren din"];
+var lists_four = ["kvinner", "menn", "folk med dårlig syn", "folk i Midt-Norge", "bare tidligere emo-kids", "menn med høyt hårfeste", "menn med skostørrelse 46", "turister", "ungdommelige bestemødre", "kvinner i 20-årene", "menn mellom 35 og 40", "gangstere", "norske skuespillere", "katteeiere", "hipstere", "rosabloggere", "hundeeiere", "kvinner med naturlig hårfarge", "Beyonces mamma", "alle", "en såret kvinne", "en såret mann", "kommuneansatte", "damer med kommunegrått hår", "arkitekter", "nyforelskede par", "finansmenn", "moren din"];
 
 var randomNum = random_number(lists_four.length);
 return lists_four[randomNum];
 }
 
 function lists_five_choice() {
-var lists_five = ["lyver om i familieselskap", "gjør som du ikke burde gjøre", "har lært på den harde måten", "gjør som du skulle ønske du torde å gjøre", "gjør som inspirerer", "innså lenge før deg", "innså lenge før deg", "gjør på Syden-ferie", "har i vokabularet", "gjør etter en natt med lite søvn", "gjør etter en fuktig natt på byen", "har lært i livet", "sier hver gang anledningen byr seg", "eier", "snakker om", "har hjemme", "ler av", "har i garasjen", "drømmer om å gjøre", "synes er morsomt", "sier høyt, men burde holdt for seg selv", "skriver feil", "er redd for", "gjør i jula", "sladrer om", "gjør som irriterer kjæresten", "snakker om bak ryggen din", "liker å krangle om", "skjønner", "forstår", "forstår", "ikke visste om vennene", "gjør på vei til jobb", "gjør feil på kjøkkenet", "gjør på bussen", "hater å tenke på", "må slite med i hverdagen", "skjuler for vennene", "kan fortelle deg", "sier", "vet", "holder hemmelig for de nærmeste"];
+var lists_five = ["lyver om i familieselskap", "gjør som du ikke burde gjøre", "har lært på den harde måten", "gjør som du skulle ønske du torde å gjøre", "elsker å gjøre", "innså lenge før deg", "innså lenge før deg", "gjør på Syden-ferie", "har i vokabularet", "gjør etter en natt med lite søvn", "gjør etter en fuktig natt på byen", "har lært i livet", "sier hver gang anledningen byr seg", "eier", "snakker om", "har hjemme", "ler av", "har i garasjen", "drømmer om å gjøre", "synes er morsomt", "sier høyt, men burde holdt for seg selv", "skriver feil", "er redd for", "gjør i jula", "sladrer om", "gjør som irriterer kjæresten", "snakker om bak ryggen din", "liker å krangle om", "skjønner", "forstår", "forstår", "ikke visste om vennene", "gjør på vei til jobb", "gjør feil på kjøkkenet", "gjør på bussen", "hater å tenke på", "må slite med i hverdagen", "skjuler for vennene", "kan fortelle deg", "sier", "vet", "holder hemmelig for de nærmeste"];
 
 var randomNum = random_number(lists_five.length);
 return lists_five[randomNum];
 }
 //
 
-//WOMEN-TITLES
+//CRAZY WOMEN-TITLES
 //Functions for women-titles
 function w_one_choice() {
 var w_one =["Hun", "Hun", "Kone", "Tenåringsjenta", "Kona", "Hun", "Kvinne i 20-årene", "Kvinnen i 30-årene", "Kvinne i 50-årene", "Kvinne i 40-årene"];
@@ -118,7 +118,7 @@ return w_four[randomNum];
 }
 
 
-
+//Fill in the words
 
 function fill_in_answers(answers) {
     // Find the spans that need filled
@@ -158,17 +158,6 @@ function lists_fill_in_answers(lists_answers) {
     part4.innerText = lists_answers['lists_four'];
     part5.innerText = '';
     part5.innerText = lists_answers['lists_five'];
-   //  // Find the spans that need filled
-   //  var listspart1 = document.getElementById('listspart1');  // Make a new variable and find the HTML tag that has the ID of "listspart1" 
-   //  var listspart2 = document.getElementById('listspart2');
-
-
-   //  // Fill them with the titles
-   //  listspart1.innerText = answers['lists_one'];
-   //  listspart2.innerText = answers['lists_two'];
-
-    // listspart1.innerHTML = answers.lists_one;  // Change the content of the element in the HTML doc with the id "listspart1" to the value in answers 
-   //  listspart2.innerHTML = answers.lists_two;
 
 }
 
@@ -192,7 +181,7 @@ function w_fill_in_answers(w_answers) {
     part5.innerText = '';
 }
 
-
+//Choose title:
 
 function showtitle() {
 
@@ -236,7 +225,9 @@ function showtitle() {
       w_fill_in_answers(w_answers);
       var answer_div = document.querySelector('#answers');
       answer_div.classList.add('show');  
-    };// Make button visible by changing class
+    };
+
+    // Make button visible by changing class
 
     button.classList.add('button');  
     
