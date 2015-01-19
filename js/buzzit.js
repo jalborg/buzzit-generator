@@ -128,16 +128,16 @@ function fill_in_answers(answers) {
     var part4 = document.getElementById('part4');
     var part5 = document.getElementById('part5');
     // Fill them with the provided answers
-    part1.innerText = '';
-    part1.innerText = answers['one'];
-    part2.innerText = '';
-    part2.innerText = answers['two'];
-    part3.innerText = '';
-    part3.innerText = answers['three'];
-    part4.innerText = '';
-    part4.innerText = answers['four'];
-    part5.innerText = '';
-    part5.innerText = answers['five'];
+    part1.textContent = '';
+    part1.textContent = answers['one'];
+    part2.textContent = '';
+    part2.textContent = answers['two'];
+    part3.textContent = '';
+    part3.textContent = answers['three'];
+    part4.textContent = '';
+    part4.textContent = answers['four'];
+    part5.textContent = '';
+    part5.textContent = answers['five'];
 }
 
 function lists_fill_in_answers(lists_answers) {
@@ -148,16 +148,16 @@ function lists_fill_in_answers(lists_answers) {
     var part4 = document.getElementById('part4');
     var part5 = document.getElementById('part5');
     // Fill them with the provided answers
-    part1.innerText = '';
-    part1.innerText = lists_answers['lists_one'];
-    part2.innerText = '';
-    part2.innerText = lists_answers['lists_two'];
-    part3.innerText = '';
-    part3.innerText = lists_answers['lists_three'];
-    part4.innerText = '';
-    part4.innerText = lists_answers['lists_four'];
-    part5.innerText = '';
-    part5.innerText = lists_answers['lists_five'];
+    part1.textContent = '';
+    part1.textContent = lists_answers['lists_one'];
+    part2.textContent = '';
+    part2.textContent = lists_answers['lists_two'];
+    part3.textContent = '';
+    part3.textContent = lists_answers['lists_three'];
+    part4.textContent = '';
+    part4.textContent = lists_answers['lists_four'];
+    part5.textContent = '';
+    part5.textContent = lists_answers['lists_five'];
 
 }
 
@@ -170,15 +170,15 @@ function w_fill_in_answers(w_answers) {
     var part4 = document.getElementById('part4');
     var part5 = document.getElementById('part5');
     // Fill them with the provided answers
-    part1.innerText = '';
-    part1.innerText = w_answers['w_one'];
-    part2.innerText = '';
-    part2.innerText = w_answers['w_two'];
-    part3.innerText = '';
-    part3.innerText = w_answers['w_three'];
-    part4.innerText = '';
-    part4.innerText = w_answers['w_four'];
-    part5.innerText = '';
+    part1.textContent = '';
+    part1.textContent = w_answers['w_one'];
+    part2.textContent = '';
+    part2.textContent = w_answers['w_two'];
+    part3.textContent = '';
+    part3.textContent = w_answers['w_three'];
+    part4.textContent = '';
+    part4.textContent = w_answers['w_four'];
+    part5.textContent = '';
 }
 
 //Choose title:
