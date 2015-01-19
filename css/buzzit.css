@@ -50,7 +50,7 @@ a:hover {
 .hiddenButton {
 	font-size:0.9em;
 	display:block;
-	margin:0 auto 15%;
+	margin:5px auto 15%;
 	padding:10px 20px;
 	opacity:0;
 }
@@ -60,7 +60,7 @@ a:hover {
 	font-size:1em;
 	background:#FFFF00;
 	border-radius: 10px;
-	margin: 0 auto 15%;
+	margin: 5px auto 15%;
 	display:block;
 	border-color:black;
 	padding:10px 20px;
