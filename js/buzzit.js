@@ -197,10 +197,10 @@ function w_fill_in_answers(w_answers) {
 function showtitle() {
 
     //Choose randomly one of two title types to display
-    var titleType = Math.floor((Math.random() * 3) + 1);
+    var titleType = Math.floor((Math.random() * 5) + 1);
 
     // Build up the answers object
-    if(titleType == 1) {
+    if(titleType == 1 || titleType == 2) {
       var answers = {
           'one': one_choice(),
           'two': two_choice(),
@@ -212,7 +212,7 @@ function showtitle() {
           var answer_div = document.querySelector('#answers');
           answer_div.classList.add('show');
 
-    } else if(titleType == 2) {
+    } else if(titleType == 3 || titleType == 4) {
 
     var lists_answers = {
       'lists_one': lists_one_choice(),
@@ -246,3 +246,27 @@ function showtitle() {
 var button = document.querySelector('.hiddenButton');
 window.onload=showtitle;  
 button.addEventListener('click', showtitle);  // When buzzit button is clicked, call the function showtitle.
+
+
+
+
+//GOOGLE ANALYTICS, track click event on button
+
+addListener(button, 'click', function() {
+  ga('send', 'event', 'button', 'click');
+});
+
+
+/**
+ * Utility to wrap the different behaviors between W3C-compliant browsers
+ * and IE when adding event handlers.
+ *
+ * @param {Object} element Object on which to attach the event listener.
+ * @param {string} type A string representing the event type to listen for
+ *     (e.g. load, click, etc.).
+ * @param {function()} callback The function that receives the notification.
+ */
+function addListener(element, type, callback) {
+ if (element.addEventListener) element.addEventListener(type, callback);
+ else if (element.attachEvent) element.attachEvent('on' + type, callback);
+}
